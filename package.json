@@ -22,8 +22,11 @@
     "shave": "^2.5.6",
     "slick-carousel": "^1.8.1"
   },
+  "homepage": "http://vishnuvishu.github.io/vishnuvinayan",
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -39,5 +42,8 @@
       "last 5 firefox version",
       "last 5 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }
